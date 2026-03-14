@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ADMIN - BUSINESS WORKERS REGISTER SYSTEM</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <h1>BUSINESS WORKERS REGISTER SYSTEM</h1>
+
+    <!-- Navigation -->
+    <div class="nav-buttons">
+        <button onclick="location.href='Index.html'">HOME</button>
+        <button onclick="location.href='Admin.html'">ADMIN</button>
+        <button onclick="location.href='Signin.html'">SIGN IN</button>
+        <button onclick="location.href='Signup.html'">SIGN UP</button>
+    </div>
+
+    <!-- Admin login form -->
+    <form method="POST" action="admin_login.php">
+        <label>Username</label>
+        <input type="text" name="username" placeholder="Username" required> 
+
+        <label>Password</label>
+        <input type="password" name="password" placeholder="Password" required> 
+
+        <button type="submit">LOGIN</button>
+    </form>
+</body>
+</html>

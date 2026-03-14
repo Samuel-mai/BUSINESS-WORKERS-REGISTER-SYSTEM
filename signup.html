@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sign Up - BUSINESS WORKERS REGISTER SYSTEM</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <h1>Create Worker Account</h1>
+
+    <!-- Navigation -->
+    <div class="nav-buttons">
+        <button onclick="location.href='Index.html'">HOME</button>
+        <button onclick="location.href='Admin.html'">ADMIN</button>
+        <button onclick="location.href='Signin.html'">SIGN IN</button>
+        <button onclick="location.href='Signup.html'">SIGN UP</button>
+    </div>
+    <br><br>
+
+    <!-- Signup Form -->
+    <form action="signup.php" method="POST">
+        <label>First Name:</label><br>
+        <input type="text" name="firstname" required><br><br>
+
+        <label>Surname:</label><br>
+        <input type="text" name="sirname" required><br><br>
+
+        <label>Username:</label><br>
+        <input type="text" name="username" required><br><br>
+
+        <label>Email:</label><br>
+        <input type="email" name="email" required><br><br>
+
+        <label>Phone:</label><br>
+        <input type="text" name="phone" required><br><br>
+
+        <label>Password:</label><br>
+        <input type="password" name="password" required><br><br>
+
+        <label for="department">Department:</label><br>
+        <select name="department" required>
+            <option value="">-- Select Department --</option>
+            <option value="HR">HR</option>
+            <option value="Finance">Finance</option>
+            <option value="IT">IT</option>
+            <option value="Operations">Operations</option>
+            <option value="Marketing">Marketing</option>
+        </select><br><br> <br>
+
+        <button type="submit">Sign Up</button><br><br> <br>
+        <a href="signin.html">Have an account? Login Here</a>
+    </form>
+</body>
+</html>
